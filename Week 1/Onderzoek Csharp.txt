@@ -1,0 +1,59 @@
+private string productName;
+
+//string example 
+    public void GetItemData()
+    {
+        ShowReciept();
+    }
+
+    private void ReadItem()
+    {    
+        Console.WriteLine("Enter the product's name: "); 
+        productName = Console.ReadLine();
+    }
+
+    private void ShowReciept()
+    {
+        Console.WriteLine("**** Name of product:", productName);
+    }
+
+//Random Numbers
+using System;
+class Program {
+   static void Main() {
+      Random rd = new Random();
+
+      int rand_num = rd.Next(100,200);
+
+      Console.WriteLine(rand_num);
+   }
+}
+
+//read input console 
+using System;
+using System.Collections.Generic;
+
+class Demo {
+   static void Main() {
+      string val;
+      Console.Write("Enter Integer: ");
+      val = Console.ReadLine();
+      int a = Convert.ToInt32(val);
+      Console.WriteLine("Your input: {0}",a);
+   }
+}
+
+//array
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+      Console.WriteLine(cars[0]);
+    }
+  }
+}
