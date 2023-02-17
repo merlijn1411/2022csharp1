@@ -1,0 +1,13 @@
+
+//strongly Language 
+1
+Een sterk getypeerde programmeertaal is een programmeertaal waarin elk type gegevens:
+-zoals gehele getallen 
+-tekens 
+-gecomprimeerde decimalen
+2
+en alle constanten of variabelen die voor een bepaald programma zijn gedefinieerd, 
+moeten worden beschreven met een van de gegevenstypen
+3
+Javascript: een script taal waarmee je interactieve web pages
+Python: is een programmeer taal is wat gebouwd is in data structuurs.
