@@ -17,11 +17,11 @@
                 Console.Write (letter);
                 Thread.Sleep(75);
                 //de Thread zorgt ervoor hoe snel het woord word uitgetyped.
-                //Hoe hoger het getal hoe langer hij er over doet en hoe kleinder het getal hoe sneller die het uit typed 
+                //Hoe hoger het getal hoe langer hij er over doet en hoe kleiner het getal hoe sneller die het uit typed 
             }
             //Readkey zorgt ervoor dat die de loop gebruikt
             Console.ReadKey();
-
+            
 
         }
     }

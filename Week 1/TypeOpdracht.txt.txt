@@ -1,16 +1,29 @@
 public class PlayerContext
 {
     public Room room;
+	//public class
     public PlayerSprite player;
+	//new class
     internal bool noDoor = false;
+	//blool voor een variabelNaam of het true of false is  
     internal int camX;
+	//horizontale positie 
     internal int camY;
+	//verticaal positie 
     internal readonly KeyBind[] keysdown = new KeyBind[5];
+	//naam vaulue change 
     internal int lastKeyDown;
+	//value maken in cijfers
     internal Bitmap buffer;
+	//om een imgage te gebruiken in een array
     internal Graphics g;
+	//
     internal int totalGoldPicked;
+	//waarde geven hoe vaak er goud is opgepakt
     internal readonly int index;
+	
     internal string name;
+	//naam geven voor de string 
     internal float runTime = 3;
+	//om waarde te geven in hele getallen voor runTime
 }
