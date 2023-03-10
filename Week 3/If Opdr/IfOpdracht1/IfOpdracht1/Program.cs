@@ -15,7 +15,7 @@ namespace IfOpdracht1
 
             
 
-            if(1 == 2)
+            if(nummerA == nummerB)
             {
                 Console.WriteLine("nummerA is gelijk aan nummerB");
             }
@@ -26,7 +26,7 @@ namespace IfOpdracht1
 
 
 
-            if (1 == 1 )
+            if (nummerA == nummerC)
             {
                 Console.WriteLine("nummerA is gelijk aan nummerC");//deze moet je zien
             }
@@ -37,13 +37,13 @@ namespace IfOpdracht1
 
 
 
-            if (1 + 1 == 2)
+            if (nummerA + nummerC == nummerB)
             {
                 Console.WriteLine("nummerA+ nummerC is gelijk aan nummerC");//deze moet je zien
             }
 
 
-            if (1 != 2 )
+            if (nummerA != nummerB)
             {
                 Console.WriteLine("nummerA is niet gelijk aan nummerC");//deze moet je zien
             }

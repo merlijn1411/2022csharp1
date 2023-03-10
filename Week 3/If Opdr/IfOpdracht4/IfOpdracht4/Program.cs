@@ -6,6 +6,8 @@ namespace IfOpdracht4
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello, World!");
+            //open ook de EnemyCollider.cs file daar moet je de functions aanpassen
 
             Enemy walker = new Enemy();
             Enemy flyer = new Enemy() { flying = true };
@@ -23,7 +25,7 @@ namespace IfOpdracht4
             {
                 Console.WriteLine("passed right through the wall");
             }
-             if (swimmer == ghost || ghost == subterranian)
+             if (enemyCollider.CanPassWall(swimmer))
             {
                 Console.WriteLine("swam through the wall?"); //deze zie je niet
             }
@@ -31,7 +33,7 @@ namespace IfOpdracht4
             {
                 Console.WriteLine("Went underneath the wall");
             }
-             if (walker == swimmer || swimmer == subterranian)
+             if (enemyCollider.CanPassWater(walker))
             {
                 Console.WriteLine("walked through the wall what???");//deze zie je niet
             }
@@ -52,7 +54,7 @@ namespace IfOpdracht4
             {
                 Console.WriteLine("Went underneath the water");
             }
-             if (walker == swimmer || walker == swimmer)
+             if (enemyCollider.CanPassWater(walker))
             {
                 Console.WriteLine("walked on water what???");//deze zie je niet
             }
